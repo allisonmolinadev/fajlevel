@@ -8,7 +8,9 @@
       "Bash(node ./node_modules/vite/bin/vite.js)",
       "Bash(tasklist //FI \"IMAGENAME eq node.exe\")",
       "Read(//c/Users/felipe.jorge/**)",
-      "Bash(mv \"/c/Users/felipe.jorge/Documents/DOCUMENTOS/P&D\" \"/c/Users/felipe.jorge/Documents/DOCUMENTOS/Ped\")"
+      "Bash(mv \"/c/Users/felipe.jorge/Documents/DOCUMENTOS/P&D\" \"/c/Users/felipe.jorge/Documents/DOCUMENTOS/Ped\")",
+      "Bash(python -m http.server 8765)",
+      "Bash(python -m http.server 8123)"
     ]
   }
 }
