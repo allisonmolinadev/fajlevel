@@ -1603,14 +1603,7 @@ p.lead {
 .btn--light { position: relative; }
 .btn--light:hover { background: var(--sun); color: var(--ink); }
 
-/* ---------- Skip cursor on inputs ---------- */
-input, textarea, button { cursor: none; }
-@media (hover: none), (max-width: 767px) {
-  input, textarea, button { cursor: auto; }
-  body { cursor: auto; }
-}
-
-body { cursor: none; }
+.cursor { display: none !important; }
 
 /* prefers-reduced-motion safety */
 @media (prefers-reduced-motion: reduce) {
